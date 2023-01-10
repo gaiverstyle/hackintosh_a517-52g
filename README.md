@@ -8,3 +8,6 @@ Version of OpenCore: *0.8.8*
 Configuration:
 
 CPU: 
+
+RAM:
+
