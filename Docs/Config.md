@@ -6,7 +6,7 @@
 
 ## CPU:
 
-*Intel 11th Gen Core i7-1165G7 @ 2.80GHz 2,80 GHz U3E1 (Intel64 Family 6 Model 140 Stepping 1)*
+Tiger Lake *Intel 11th Gen Core i7-1165G7 @ 2.80GHz 2,80 GHz U3E1 (Intel64 Family 6 Model 140 Stepping 1)*
 
 ## RAM Memory:
 
