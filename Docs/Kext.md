@@ -62,3 +62,19 @@ Requires Mac OS X 10.7 or newer
 Used for measuring battery readouts on laptops
 Do not use on desktops
 Requires Mac OS X 10.4 or newer
+
+### CPUFriend
+
+A Lilu plug-in for dynamic power management data injection.
+
+### CpuTscSync
+
+It is a Lilu plugin, combining functionality of VoodooTSCSync and disabling xcpm_urgency if TSC is not in sync. It should solve some kernel panics after wake.
+
+### USBInjectAll.kext
+
+In 10.11+ Apple has changed significantly the way the USB drivers work. In the absense of a port injector, the drivers use ACPI to obtain information about which ports are active. Often, this information is wrong. Instead of correcting the DSDT, a port injector can be used (just as Apple did for their own computers). But in order to create such an injector, you must first determine which ports are actually being used. And to do that you need to inject all ports so you can test all ports on the computer to determine which ones correspond to each available port address. You can't test a port that is disabled...
+
+That's where this kext comes in.
+
+This kext attempts to inject all ports for each controller, and for hubs as well. You can use this kext (temporarily) to enable all ports so you can determine which ports really need to be in the final injector. Only the (potential) hub on EH01.PRT1 and EH02.PRT1 are injected. Other hubs would require modifications. So far, I haven't seen internal hubs connected to other ports. The kext automatically determines the ports (and their addresses) based on the specifc USB controller chipsets.
