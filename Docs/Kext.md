@@ -48,8 +48,6 @@ Requires macOS 10.11 or newer for MT2 (Magic Trackpad 2) functions
 For systems with ELAN SMBus Trackpads
 Supports macOS 10.14 or newer currently
 
-
-
 ## Optionnal 
 
 ### SMCProcessor
