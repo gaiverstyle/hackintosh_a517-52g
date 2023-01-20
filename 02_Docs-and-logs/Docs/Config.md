@@ -10,7 +10,7 @@ Tiger Lake *Intel 11th Gen Core i7-1165G7 @ 2.80GHz 2,80 GHz U3E1 (Intel64 Famil
 
 ## RAM Memory:
 
-*Total Memory(DDR4) : 16 Go*
+*Total Memory(DDR4) : 16 Go DDR4*
 
 ## Storage:
 
